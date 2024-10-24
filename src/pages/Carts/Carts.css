@@ -1,0 +1,13 @@
+.carts-container {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.carts-items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    overflow-y: auto;
+    height: 560px;
+}

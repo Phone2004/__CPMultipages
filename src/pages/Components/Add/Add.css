@@ -1,0 +1,31 @@
+.add-container {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(228, 228, 228, 0.248);
+}
+
+.add-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    color: rgb(0, 204, 255);
+    margin: 1rem 0 1rem 0;
+}
+
+.add-variables-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.add-display {
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.dis {
+    margin: 0 0.5rem 0 0.5rem;
+}

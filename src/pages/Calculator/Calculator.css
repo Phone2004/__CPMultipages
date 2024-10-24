@@ -1,0 +1,96 @@
+* {
+    user-select: none; /* ป้องกันการเลือกข้อความ */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f5; 
+}
+
+.calculator {
+    background-color: #ffffff; 
+    border-radius: 30px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 320px; 
+    padding: 20px;
+}
+
+.display {
+    background-color: #222;
+    color: white; 
+    font-size: 40px; 
+    text-align: right; 
+    padding: 20px;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+}
+
+input#display {
+    width: 100%;
+    height: 60px; 
+    font-size: 40px;
+    text-align: right; 
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: white; 
+    outline: none; 
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; 
+}
+
+button {
+    background-color: #f0f0f5;
+    border: none; 
+    font-size: 28px; 
+    color: #333; 
+    padding: 20px; 
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.2s; 
+}
+
+button:hover {
+    background-color: #e0e0e0; 
+}
+
+button:active {
+    background-color: #828282;
+}
+
+.zero {
+    grid-column: span 2; 
+}
+
+#equal {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 10px;
+}
+
+#equal:hover {
+    background-color: #165519;
+}
+
+/* ปุ่ม DEL */
+button#del {
+    background-color: #ff4d4d; /* สีแดง */
+    color: white; /* สีตัวอักษร */
+    border-radius: 10px; /* มุมที่โค้ง */
+}
+
+button#del:hover {
+    background-color: #e60000; /* สีเมื่อชี้ */
+}
+
+button#del:active {
+    background-color: #cc0000; /* สีเมื่อกด */
+}

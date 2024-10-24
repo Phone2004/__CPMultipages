@@ -1,0 +1,34 @@
+.temps-var {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.temps-container {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    /* margin: 0.5rem 0 0 0; */
+    background-color: rgba(228, 228, 228, 0.248);
+    width: auto;
+}
+
+.temps-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    color: rgb(0, 204, 255);
+    margin: 1rem 0 1rem 0;
+}
+
+.reset-button {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.temps-display {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}

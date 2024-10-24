@@ -1,0 +1,17 @@
+.home-container {
+    height: 750px;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.detail-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info {
+    text-align: left;
+    font-size: 24px;
+}
